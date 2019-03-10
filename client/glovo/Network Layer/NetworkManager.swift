@@ -92,7 +92,7 @@ public class NetworkManager : NetworkManagerProtocol {
 }
 
 public class NetworkConfiguration : NetworkConfigurationProtocol {
-    public var environment : Environment = .ngrok
+    public var environment : Environment = .local
 
     public enum Environment : String {
         case local = "http://localhost:3000"
