@@ -1,0 +1,26 @@
+platform :ios, '11.0'
+
+target 'glovo' do
+  use_frameworks!
+
+  # Pods for glovo
+
+  pod 'RealmSwift'
+  pod 'RxSwift'
+  pod 'PromiseKit'
+  pod 'SnapKit'
+  pod 'RxRealm'
+  pod 'RxCocoa'
+  pod 'RxReachability'
+  pod 'Swinject'
+  pod 'Polyline'
+
+  target 'glovoTests' do
+    inherit! :search_paths
+  end
+
+  target 'glovoUITests' do
+    inherit! :search_paths
+  end
+
+end
